@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>دروس | Lessons — ایمان و عمل اکیڈمی</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="site-header"></header>
+
+<section class="pagehead"><div class="wrap">
+  <div class="crumbs" id="crumbs"></div>
+  <h1 id="title"></h1>
+  <input id="q" class="searchbox" type="search" data-pen="Search lessons…" data-pur="دروس میں تلاش کریں…" aria-label="Search">
+</div></section>
+
+<main class="wrap" id="content"></main>
+
+<div id="player" class="player">
+  <audio id="audio" preload="none"></audio>
+  <div class="ptop"><span id="pTitle"></span><span id="pTime">0:00 / 0:00</span></div>
+  <input id="pSeek" type="range" min="0" max="1000" value="0" dir="ltr" aria-label="Seek">
+  <div class="pbtns" dir="ltr">
+    <button id="pSpeed">1×</button><button id="pBack">⟲15</button><button id="pPrev">⏮</button>
+    <button id="pPlay" class="big">▶</button>
+    <button id="pNext">⏭</button><button id="pFwd">15⟳</button>
+  </div>
+</div>
+
+<footer id="site-footer"></footer>
+<script src="data.js"></script><script src="app.js"></script>
+</body>
+</html>
