@@ -48,8 +48,9 @@ function renderHome() {
       <small>${cs.reduce((n, c) => n + lessonsOf(c.id).length, 0)} ${L("lessons", "دروس")}</small></a>`;
   }).join("");
   const c = SITE.contact, links = [];
-  if (c.youtube) links.push(`<a class="btn" href="${c.youtube}" target="_blank" rel="noopener">▶ YouTube</a>`);
-  if (c.whatsapp) links.push(`<a class="btn" href="${c.whatsapp}" target="_blank" rel="noopener">WhatsApp</a>`);
+  [].concat(c.youtube || []).forEach(u => links.push(`<a class="btn b-yt" href="${u}" target="_blank" rel="noopener">▶ ${L("YouTube Channel", "یوٹیوب چینل")}</a>`));
+  [].concat(c.telegram || []).forEach(u => links.push(`<a class="btn b-tg" href="${u}" target="_blank" rel="noopener">✈ ${L("Telegram Channel", "ٹیلیگرام چینل")}</a>`));
+  if (c.whatsapp) links.push(`<a class="btn b-wa" href="${c.whatsapp}" target="_blank" rel="noopener">WhatsApp</a>`);
   if (c.email) links.push(`<a class="btn" href="mailto:${c.email}">✉ ${esc(c.email)}</a>`);
   $("#contactLinks").innerHTML = links.join("") || `<p class="muted">${L("Contact details coming soon.", "رابطے کی تفصیلات جلد شامل کی جائیں گی۔")}</p>`;
 }
