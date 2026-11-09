@@ -15,7 +15,7 @@ const SITE = {
   contact: {
     email: "imanoamal212@gmail.com",      // مثال: "info@example.com"
     youtube: "https://www.youtube.com/@islamiclectures313",   // يمكن وضع أكثر من رابط: ["رابط1", "رابط2"]
-    telegram: "https://t.me/seeratunnabipbuh", "https://t.me/iman_o_amal"   // مثال: "https://t.me/اسم_القناة"
+    telegram: "https://t.me/seeratunnabipbuh", "https://t.me/iman_o_amal",   // مثال: "https://t.me/اسم_القناة"
     whatsapp: ""
   }
 };
