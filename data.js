@@ -186,10 +186,10 @@ const LESSONS = {
     [{en: "Verses 19–20", ur: "آیات ۱۹ تا ۲۰"}, "https://archive.org/download/tafseer-surah-luqman/Part%2016%20Luqman%20Ayah%2019-20.mp3", "https://youtu.be/3rNV2oJRH60"],
     [{en: "Verses 21–22", ur: "آیات ۲۱ تا ۲۲"}, "https://archive.org/download/tafseer-surah-luqman/Part%2017%20Luqman%20Ayah%2021-22.mp3", "https://youtu.be/gWDKShv7COY"],
     [{en: "Verses 22–23", ur: "آیات ۲۲ تا ۲۳"}, "https://archive.org/download/tafseer-surah-luqman/Part%2018%20Luqman%20Ayah%2022-23.mp3", "https://youtu.be/kSgpN2LGirI"],
-    [{en: "Verses 23–28", ur: "آیات ۲۳ تا ۲۸"}, "https://archive.org/download/tafseer-surah-luqman/Part%2019%20Luqman%20Ayah%2023-28.mp3", ""],   // ← ضع رابط اليوتيوب هنا بين علامتي الاقتباس بعد رفعه
-    [{en: "Verses 29–31", ur: "آیات ۲۹ تا ۳۱"}, "https://archive.org/download/tafseer-surah-luqman/Part%2020%20Luqman%20Ayah%2029-31.mp3", ""],
-    [{en: "Verses 32–33", ur: "آیات ۳۲ تا ۳۳"}, "https://archive.org/download/tafseer-surah-luqman/Part%2021%20Luqman%20Ayah%2032-33.mp3", ""],
-    [{en: "Verses 33–34", ur: "آیات ۳۳ تا ۳۴"}, "https://archive.org/download/tafseer-surah-luqman/Part%2022%20Luqman%20Ayah%2033-34.mp3", ""],
+    [{en: "Verses 23–28", ur: "آیات ۲۳ تا ۲۸"}, "https://archive.org/download/tafseer-surah-luqman/Part%2019%20Luqman%20Ayah%2023-28.mp3", "https://www.youtube.com/watch?v=bQdmxjSApv4"],   // ← ضع رابط اليوتيوب هنا بين علامتي الاقتباس بعد رفعه
+    [{en: "Verses 29–31", ur: "آیات ۲۹ تا ۳۱"}, "https://archive.org/download/tafseer-surah-luqman/Part%2020%20Luqman%20Ayah%2029-31.mp3", "https://www.youtube.com/watch?v=0pBAce7oqhw"],
+    [{en: "Verses 32–33", ur: "آیات ۳۲ تا ۳۳"}, "https://archive.org/download/tafseer-surah-luqman/Part%2021%20Luqman%20Ayah%2032-33.mp3", "https://www.youtube.com/watch?v=N6XoK9FVhpc"],
+    [{en: "Verses 33–34", ur: "آیات ۳۳ تا ۳۴"}, "https://archive.org/download/tafseer-surah-luqman/Part%2022%20Luqman%20Ayah%2033-34.mp3", "https://www.youtube.com/watch?v=DDn7ZOJut58"],
   ],
   fatir: [
     [{ en: "Surah Fatir – Lesson 1", ur: "سورۃ فاطر – پہلا درس" },
